@@ -13,10 +13,10 @@ Built using the Slim PHP Framework.
 ##### Storage
 - Database (uses PDO for MySQL)
 - OAuth2 (uses Database)
-- Redis (wrapper for Predis)
+- Redis (wrapper for Predis, used for Rate Limiting and Caching)
 
 ##### Utils
 - General (for general helper functions)
 
 ##### Dependency Injection
-Uses Slim's custom container service for dependency injection
+Uses Slim's custom container service for dependency injection. [Docs](https://www.slimframework.com/docs/v3/concepts/di.html 'Slim Dependency Container')
